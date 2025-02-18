@@ -1,14 +1,14 @@
-const descProcedimento = "A abdominoplastia é uma cirurgia que visa remodelar o abdômen, removendo o excesso de pele e gordura, além de corrigir a musculatura abdominal quando necessário.";
+const descProcedimento = "A braquioplastia é um procedimento cirúrgico realizado para remover o excesso de pele e gordura nos braços, proporcionando uma aparência mais tonificada e estética.";
 
 const tituloProcCard01 = "Avaliação Inicial";
 const tituloProcCard02 = "Preparação";
 const tituloProcCard03 = "Procedimento";
 const tituloProcCard04 = "Recuperação";
 
-const descProcCard01 = "Análise detalhada do abdômen e definição do plano cirúrgico personalizado.";
-const descProcCard02 = "Orientações específicas e exames pré-operatórios para garantir sua segurança.";
-const descProcCard03 = "Cirurgia realizada com técnicas modernas e equipe especializada.";
-const descProcCard04 = "Acompanhamento próximo e cuidados específicos para garantir os melhores resultados.";
+const descProcCard01 = "Análise detalhada da flacidez e excesso de pele nos braços, além da definição do plano cirúrgico personalizado.";
+const descProcCard02 = "Orientações específicas sobre os exames pré-operatórios, cuidados com a pele e preparação para a cirurgia.";
+const descProcCard03 = "Realização da cirurgia com técnicas modernas para remover a pele excedente e gordura localizada nos braços.";
+const descProcCard04 = "Acompanhamento próximo no pós-operatório para garantir os melhores resultados e controle da cicatrização.";
 
 export default function Procedimento() {
     return (

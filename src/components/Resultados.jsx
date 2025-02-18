@@ -8,26 +8,23 @@ export default function Resultados() {
 
             <div className="grid grid-cols-2 max-lg:grid-cols-1 justify-items-center items-center gap-12">
                 <div className="space-y-12 justify-items-center items-center">
-                    <h2 className="text-blue-500 text-4xl">Transformação Completa</h2>
-                    <p className="text-gray-50 ml-20">Os resultados da abdominoplastia são notados gradualmente, com a evolução completa em até 6 meses após o procedimento.</p>
+                    <h2 className="text-blue-500 text-4xl">Recuperação Eficaz</h2>
+                    <p className="text-gray-50 ml-20">Seguindo as orientações pós-operatórias, você garantirá uma recuperação tranquila, segura e com resultados satisfatórios. Em caso de dúvidas, entre em contato com seu cirurgião.</p>
                     <ul className="text-gray-50 space-y-5">
-                        <li className="relative before:content-['✔']">Abdômen mais firme e definido</li>
-                        <li className="relative before:content-['✔']">Remoção do excesso de pele</li>
-                        <li className="relative before:content-['✔']">Correção da diástase abdominal</li>
-                        <li className="relative before:content-['✔']">Melhora da autoestima</li>
+                        <li className="relative before:content-['✔']">Redução do inchaço e melhora da circulação</li>
+                        <li className="relative before:content-['✔']">Cicatrização eficiente e sem complicações</li>
+                        <li className="relative before:content-['✔']">Contorno dos braços mais firme e definido</li>
+                        <li className="relative before:content-['✔']">Aumento da confiança e autoestima</li>
                     </ul>
                     <ModalResultados />
                 </div>
 
-                <div className="grid grid-cols-1 max-lg:grid-cols-3 gap-4 items-center justify-items-center">
-                    <div className="hidden">
-                        <h2 className="cardNum text-5xl font-semibold">97%</h2>
-                        <p className="text-gray-400 text-xl">índice de satisfação</p>
-                    </div>
+                <div className="grid grid-cols-1 max-lg:grid-cols-2 gap-4 items-center justify-items-center">
+        
 
                     <div className="cardResultados">
-                        <h2 className="cardNum text-gray-100 text-5xl font-semibold">30</h2>
-                        <p className="text-gray-400 text-xl">Dias de Recuperação</p>
+                        <h2 className="cardNum text-gray-100 text-5xl font-semibold">4-6</h2>
+                        <p className="text-gray-400 text-xl">Semanas de Uso da Malha Compressiva</p>
                     </div>
 
                     <div className="cardResultados">

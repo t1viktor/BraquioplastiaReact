@@ -1,11 +1,10 @@
 import { useState, useEffect } from "react";
 
-const modalimg01 = '/img/imgCard03.png';
+const modalimg01 = '/img/imgCard08.png';
 
+const tituloModal = "Recomendações Finais";
 
-const tituloModal = "Higiene e Cuidados com a Ferida Operatória";
-
-export default function Modal03() {
+export default function Modal08() {
   const [isOpen, setIsOpen] = useState(false);
 
   useEffect(() => {
@@ -29,7 +28,7 @@ export default function Modal03() {
 
       {/* Fundo escuro e modal */}
       {isOpen && (
-        <div className="fixed z-50 inset-0 flex items-center  justify-center bgBlur" onClick={() => setIsOpen(false)}>
+        <div className="fixed z-50 inset-0 flex items-center justify-center bgBlur" onClick={() => setIsOpen(false)}>
           <div className="modalCuidados" onClick={(e) => e.stopPropagation()}>
             <div className="border-b-[1px] w-full px-4 border-gray-700 flex justify-between flex-col-reverse items-center">
               <h2 className="modalCuidadoTittle">
@@ -43,29 +42,27 @@ export default function Modal03() {
               </button>
             </div>
 
-            <div className="space-y-12 flex flex-col items-center">
-
-            
-
             <img
               className="imgModalCuidados"
               src={modalimg01}
               alt=""
             />
 
-            <p className="pModalCuidados">
-            Manter a região limpa e protegida é essencial para evitar infecções e garantir uma boa cicatrização.
-            </p>
 
-            <ul className="cardAlert text-gray-100 list-disc liCardCuidados mx-6 text-left">
-              <li>Banhos: Geralmente, banhos rápidos e mornos são liberados após 24-48 horas, mas siga sempre as orientações do cirurgião. Evite esfregar a área operada.
+            <div className="cardAlert text-left space-y-4">
+             
+              <li className="marker:text-blue-400 list-disc">Não Fume: O cigarro prejudica a circulação e dificulta a cicatrização, aumentando o risco de complicações.
               </li>
-              <li>Curativos: Siga as orientações médicas para troca dos curativos, e nunca mexa na área operada sem higienizar bem as mãos antes</li>
-              <li>Secagem Suave: Após o banho, seque delicadamente a região com uma toalha limpa, sem friccionar. Mantenha o local arejado e protegido.</li>
-            </ul>
+
+              <li className="marker:text-blue-400 list-disc">Siga os Retornos Médicos: Compareça a todas as consultas de revisão para que o médico avalie a evolução da sua recuperação.
+              </li>
+
+              <li className="marker:text-blue-400 list-disc">Paciência e Disciplina: A recuperação completa leva tempo. Seguir todas as orientações médicas, ter paciência e disciplina é fundamental para alcançar o resultado desejado.
+              </li>
+
+            </div>
 
             
-            </div>
           </div>
         </div>
       )}

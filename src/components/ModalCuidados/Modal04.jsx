@@ -1,10 +1,8 @@
 import { useState, useEffect } from "react";
 
-const modalimg01 = '/img/CA1A2644.JPEG';
-const modalimg02 = '/img/fotoExplicando.JPEG';
-const modalimg03 = '/img/fotoConsulta.JPEG';
+const modalimg01 = '/img/imgCard04.png';
 
-const tituloModal = "Fisioterapia Pós-operatória";
+const tituloModal = "Uso da Malha de Compressão e Meias de Compressão";
 
 export default function Modal04() {
   const [isOpen, setIsOpen] = useState(false);
@@ -44,51 +42,34 @@ export default function Modal04() {
               </button>
             </div>
 
-            <div className="grid grid-cols-2 max-lg:grid-cols-1 gap-4 space-y-12 px-2">
+            <img className="imgModalCuidados" src={modalimg01} alt="" />
 
-<div className="flex items-center justify-center">
-            <img loading="lazy"
-              className="imgCardCuidados"
-              src={modalimg01}
-              alt=""
-            />
+            <div className="grid grid-cols-2 max-lg:grid-cols-1 w-full p-3 gap-5">
+
+<div className="bg-slate-700 px-2 py-4 text-left rounded-lg w-full space-y-5">
+  <h2 className="text-blue-400 text-center">
+  Malha de Compressão para os Braços:
+  </h2>
+  <ul className="list-disc px-6 text-gray-100 space-y-5">
+    <li className="liCardCuidados">Geralmente indicada para uso contínuo nas primeiras 4 a 6 semanas, removendo apenas para a higiene. Essa malha ajuda a reduzir o inchaço e a melhorar a aderência da pele aos tecidos.
+    </li>
+    <li className="liCardCuidados">Ajuste Correto: A malha deve ficar justa, mas não apertada a ponto de causar dor ou dificuldade na circulação.</li>
+  </ul>
 </div>
 
-<div className=" w-full bg-slate-700 rounded-lg flex flex-col items-center justify-center justify-items-center p-6">
-  <h2 className="text-blue-400 text-lg font-bold">Drenagem Linfática Manual:</h2>
-  <p className="text-gray-100 ">A drenagem linfática é uma técnica suave que ajuda a reduzir o inchaço e eliminar líquidos retidos, o que melhora o conforto e acelera a recuperação. Realizada por fisioterapeutas especializados, a drenagem previne a formação de fibroses e otimiza a circulação linfática.</p>
+<div className="bg-slate-700 px-2 py-4 text-left rounded-lg w-full space-y-5">
+  <h2 className="text-blue-400 text-center">
+  Meias de Compressão:
+  </h2>
+  <ul className="list-disc px-6 text-gray-100 space-y-5">
+    <li className="liCardCuidados">Duração: Se indicado pelo cirurgião, use as meias de compressão nas pernas durante as primeiras 1 a 2 semanas, especialmente se você ficar mais tempo de repouso. Elas ajudam a prevenir tromboses e melhoram a circulação sanguínea.
+    </li>
+    <li className="liCardCuidados">Uso: Siga as recomendações médicas sobre quando e por quanto tempo utilizar as meias.
+    </li>
+  </ul>
 </div>
 
-<div className="flex items-center justify-center">
-            <img loading="lazy"
-              className="imgCardCuidados"
-              src={modalimg02}
-              alt=""
-            />
 </div>
-
-<div className=" w-full bg-slate-700 rounded-lg flex flex-col items-center justify-center justify-items-center p-6">
-  <h2 className="text-blue-400 text-lg font-bold">Carboxiterapia:</h2>
-  <p className="text-gray-100 ">Esse tratamento utiliza pequenas injeções de gás carbônico no tecido subcutâneo, o que melhora a oxigenação local e contribui para uma cicatrização mais uniforme e saudável. A carboxiterapia também ajuda a reduzir a formação de fibroses, mantendo a pele mais lisa e flexível.</p>
-</div>
-
-<div className="flex items-center justify-center">
-            <img loading="lazy"
-              className="imgCardCuidados "
-              src={modalimg03}
-              alt=""
-            />
-</div>
-
-<div className=" w-full bg-slate-700 rounded-lg flex flex-col items-center justify-center justify-items-center p-6">
-  <h2 className="text-blue-400 text-lg font-bold">Terapias com Laser:</h2>
-  <p className="text-gray-100 ">O uso de lasers específicos no pós-operatório ajuda a estimular a regeneração celular, melhorando a qualidade da cicatriz e diminuindo a inflamação. Lasers terapêuticos também auxiliam na prevenção de retrações cutâneas e na formação de cicatrizes hipertróficas.</p>
-</div>
-
- </div>
-
- <div className="cardAlert">Esses tratamentos devem ser realizados por profissionais especializados, em frequência e duração recomendadas pelo seu cirurgião e fisioterapeuta.</div>
-
             
           </div>
         </div>

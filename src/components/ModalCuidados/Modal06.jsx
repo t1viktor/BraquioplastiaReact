@@ -1,8 +1,8 @@
 import { useState, useEffect } from "react";
 
-const modalimg01 = '/img/pessoaCurvada.jpg';
+const modalimg01 = '/img/imgCard06.png';
 
-const tituloModal = "Posições Corporais";
+const tituloModal = "Fisioterapia Pós-Operatória e Drenagem Linfática";
 
 export default function Modal06() {
   const [isOpen, setIsOpen] = useState(false);
@@ -49,15 +49,15 @@ export default function Modal06() {
             />
 
             <p className="pModalCuidados">
-            As posições adotadas no pós-operatório são muito importantes para proteger a ferida e ajudar na sua recuperação.
+            Alguns procedimentos podem ser indicados para acelerar a recuperação e melhorar o resultado estético.
             </p>
 
             <div className="cardAlert">
               <ul className="text-left space-y-6">
-                <h2 className="text-blue-400 text-xl">Deitar-se com tronco elevado e pernas flexionadas</h2>
-                <li className="list-disc marker:text-blue-500">Adote essa posição para descansar, pois ela reduz a pressão no abdômen e contribui para a cicatrização.</li>
-                <h2 className="text-blue-400 text-xl">Evitar posturas eretas nos primeiros dias</h2>
-                <li className="list-disc marker:text-blue-500">Caminhe levemente curvado para frente até que o médico autorize a retomar a postura reta. Isso reduz a tensão na área da cicatriz.</li>
+                
+                <li className="list-disc marker:text-blue-500">Drenagem Linfática Manual: Ajuda a reduzir o inchaço e eliminar líquidos retidos. Deve ser realizada por um profissional capacitado, seguindo as orientações do cirurgião.
+                </li>
+                <li className="list-disc marker:text-blue-500">Outras Terapias: O médico pode indicar sessões de ultrassom, laser terapêutico ou outros tratamentos para otimizar a cicatrização e minimizar fibroses.</li>
 
               </ul>
             </div>

@@ -1,8 +1,8 @@
 import { useState, useEffect } from "react";
 
-const modalimg01 = '/img/pacienteTranquila.jpg';
+const modalimg01 = '/img/imgCard07.png';
 
-const tituloModal = "Recomendações Finais para um Pós-operatório Tranquilo";
+const tituloModal = "Proteção Contra o Sol";
 
 export default function Modal07() {
   const [isOpen, setIsOpen] = useState(false);
@@ -49,18 +49,16 @@ export default function Modal07() {
             />
 
             <p className="pModalCuidados p-3 text-left">
-            A recuperação completa é um processo gradual, que depende tanto do trabalho da equipe médica quanto dos cuidados diários que você realiza. Com disciplina e atenção às recomendações, você estará no caminho para uma recuperação mais rápida e segura, alcançando os melhores resultados possíveis na sua abdominoplastia.
+            A exposição solar deve ser evitada nos primeiros meses para não prejudicar a cicatrização e evitar o escurecimento das cicatrizes.
             </p>
 
             <div className="cardAlert text-left space-y-4">
-              <h2 className="text-blue-400 text-xl">Controle do Inchaço</h2>
-              <li className="marker:text-blue-400 list-disc">Utilize compressas frias na região abdominal conforme a orientação médica para ajudar a reduzir o inchaço.</li>
+             
+              <li className="marker:text-blue-400 list-disc">Evite Sol Direto: Mantenha a região operada protegida do sol, utilizando roupas leves e de mangas longas, se necessário.</li>
 
-              <h2 className="text-blue-400 text-xl">Evite Tabagismo</h2>
-              <li className="marker:text-blue-400 list-disc">Não fume, pois o cigarro compromete a oxigenação dos tecidos e dificulta a cicatrização.</li>
+             
+              <li className="marker:text-blue-400 list-disc">Protetor Solar: Quando liberado pelo cirurgião, use protetor solar de alto FPS na área operada, reaplicando conforme indicado.</li>
 
-              <h2 className="text-blue-400 text-xl">Atente-se aos retornos médicos</h2>
-              <li className="marker:text-blue-400 list-disc">Compareça a todas as consultas de revisão para garantir que sua recuperação está no caminho certo.</li>
             </div>
 
             

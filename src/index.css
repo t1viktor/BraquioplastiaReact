@@ -124,7 +124,7 @@
 }
 
 .ulCardCuidados{
-    @apply list-disc mx-4 space-y-6 w-60 h-50 ;
+    @apply list-disc mx-4 space-y-12 w-60 h-50 ;
 }
 
 .liCardCuidados{
@@ -148,7 +148,7 @@
 }
 
 .imgModalCuidados{
-    @apply w-[90%] h-90 rounded-lg border-[1px] border-orange-200 max-md:h-50;
+    @apply w-[90%] h-90 rounded-lg border-[1px] border-orange-200 max-lg:h-70;
 }
 
 .pModalCuidados{
