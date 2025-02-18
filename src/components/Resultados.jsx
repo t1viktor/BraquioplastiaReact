@@ -9,7 +9,7 @@ export default function Resultados() {
             <div className="grid grid-cols-2 max-lg:grid-cols-1 justify-items-center items-center gap-12">
                 <div className="space-y-12 justify-items-center items-center">
                     <h2 className="text-blue-500 text-4xl">Recuperação Eficaz</h2>
-                    <p className="text-gray-50 ml-20">Seguindo as orientações pós-operatórias, você garantirá uma recuperação tranquila, segura e com resultados satisfatórios. Em caso de dúvidas, entre em contato com seu cirurgião.</p>
+                    <p className="text-gray-50 text-center">Seguindo as orientações pós-operatórias, você garantirá uma recuperação tranquila, segura e com resultados satisfatórios. Em caso de dúvidas, entre em contato com seu cirurgião.</p>
                     <ul className="text-gray-50 space-y-5">
                         <li className="relative before:content-['✔']">Redução do inchaço e melhora da circulação</li>
                         <li className="relative before:content-['✔']">Cicatrização eficiente e sem complicações</li>
